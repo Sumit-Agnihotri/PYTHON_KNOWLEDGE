@@ -19,3 +19,9 @@ if age > 18:
 else:
     print("You are not eligible to vote")
     
+# How to Change the Type of Input in Python
+age = input("Enter your age: ")
+print(type(age))  # This will print <class 'str'>
+age = int(age)  # Convert string to integer
+print("Your age is", age)
+print(type(age))  # This will print <class 'int'>
