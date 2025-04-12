@@ -27,3 +27,5 @@ print("Your age is", age)
 print(type(age))  # This will print <class 'int'>
 
 # Output Formatting
+amount = 150.75
+print("Amount: ${:.2f}".format(amount))
