@@ -25,3 +25,5 @@ print(type(age))  # This will print <class 'str'>
 age = int(age)  # Convert string to integer
 print("Your age is", age)
 print(type(age))  # This will print <class 'int'>
+
+# Output Formatting
