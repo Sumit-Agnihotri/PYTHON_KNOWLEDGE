@@ -25,3 +25,20 @@ print(type(age))  # This will print <class 'str'>
 age = int(age)  # Convert string to integer
 print("Your age is", age)
 print(type(age))  # This will print <class 'int'>
+
+# Find the Datatype in Python
+a = "Hello World"
+b = 10
+c = 10.5
+d = True
+e = [1, 2, 3, 4, 5]
+f = {'key': 'value'}
+g = (1, 2, 3)
+
+print(type(a))  # <class 'str'>
+print(type(b))  # <class 'int'>
+print(type(c))  # <class 'float'>
+print(type(d))  # <class 'bool'>
+print(type(e))  # <class 'list'>
+print(type(f))  # <class 'dict'>
+print(type(g))  # <class 'tuple'>
