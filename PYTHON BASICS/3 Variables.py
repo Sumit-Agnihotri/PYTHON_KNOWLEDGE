@@ -24,3 +24,24 @@ z = "10"
 print(str(x))
 print(int(y))
 print(float(z))
+
+# LOCAL VARIABLE
+
+def mine():
+    a = "Stamped by Sumit Agnihotri"
+    print(a)
+mine()
+
+# GLOBAL VARIABLE
+
+def fake():
+    global a
+    a = "Signed by Sumit Agnihotri"
+    print(a)
+fake()
+print(a)
+
+e = 10
+# del e
+print(e)
+
